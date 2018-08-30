@@ -3,109 +3,62 @@
 <title></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" opacity: 0.7;>
 <style>
+@import url('https://fonts.googleapis.com/css?family=Atomic+Age');
 body {margin: 0;}
 
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
 }
 
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    opacity: 1;
-   
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #222;}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
 
-pr li a:hover(.active) {text-size; 30px}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
 
-ul.topnav li a.active {background-color: #3299CC;}
-
-ul.topnav li.right {float: right;}
-
-screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-    position: fixed;
 }
 </style>
 </head>
 <body>
 
-<ul class="topnav">
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#mywork">Projects</a></li>
-  <li class="right"><a href="#about">About</a></li>
-</ul>
+<div class="navbar">
+  <a href="#home">Construct 2</a>
+  <a href="#news">3D Modelling</a>
+</div>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <style>
-body,h1,bottom,.projects,.pr {font-family: "<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">", sans-serif}
+body,h1 {font-family: 'Atomic Age', cursive;}
 body, html {height: 100%}
 .bgimg {
-    background-image: url('https://i.redd.it/cb12p2q4rocx.png');
+    background-image: url(https://c.wallhere.com/photos/ef/47/red_window_yellow_metal_concrete_vent_paint_grunge-879758.jpg!d);
     min-height: 100%;
-    background-position: center;
+    background-position: ;
     background-size: cover;
+    background-repeat: no-repeat;
 }
-
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #888; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-}
-
-.bottom {
-	background-color: #181E2C;
-    color: white;
-    height: 200px;
-    padding:40px;
-    text-size: 30px;
-    }
-    
-.projects {
-	background-color: #181E2C;
-    color: white;
-    height: 200px;
-    padding:40px;
-    text-size: 60px;
-}
-
-.pr {
-	width: 32.9%;
-    display: inline-block;
-    text-align: center;
-    }
-    
 </style>
+
 <body>
 
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
@@ -113,33 +66,13 @@ body, html {height: 100%}
  
   </div>
   <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">My Portfolio</h1>
+    <h1 class="w3-jumbo w3-animate-top"></h1>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">I dislike HTML<p>
+    <p class="w3-large w3-center"><p>
   
-      
   </div>
   
 </div>
-<div class="bottom">
-
-<center><h1 class="w3-jumbo w3-animate-top">Projects</h1></center>
- <hr class="w3-border-grey" style="margin:auto;width:20%">
-
-</div>
-
-<div class="projects">
-<div class="pr">
-<p>3D Printing<p><left><hr class="w3-border-grey" style="margin:auto;;width:30%">
-</div>
-<div class="pr">
-<center><p>Construct 2<p><hr class="w3-border-grey" style="margin:auto;width:30%">
-</div>
-<div class="pr">
-<right><p>T B A<p><hr class="w3-border-grey" style="margin:auto;width:30%">
-</div>
-
-
 
 </body>
 </html>
